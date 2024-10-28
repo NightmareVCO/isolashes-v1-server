@@ -1,0 +1,1067 @@
+
+###GET /product-category
+GET http://localhost:3001/product-category
+
+### POST /product-category
+POST http://localhost:3001/product-category
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "name": "Blister de Pestaña",
+  "description": "Blister de diferentes tamaños y grosores de pestañas"
+}
+
+### POST /product-category
+POST http://localhost:3001/product-category
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "name": "Pinza",
+  "description": "Pinzas para aplicación de pestañas, de diferentes tamaños, estilos y tecnicas"
+}
+
+
+### POST /product-category
+POST http://localhost:3001/product-category
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "name": "Adhesivo",
+  "description": "Adhesivos para pestañas, de diferentes tiempos de secado."
+}
+
+### POST /product-category
+POST http://localhost:3001/product-category
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "name": "Cinta Adhsiva",
+  "description": "Cintas adhesivas para pestañas, de diferentes tamaños y colores."
+}
+
+
+### POST /product-category
+POST http://localhost:3001/product-category
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "name": "Insumos de pestañas",
+  "description": "Productos de preparación para la pestaña"
+}
+
+### POST /product-category
+POST http://localhost:3001/product-category
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "name": "Insumos plásticos",
+  "description": "Productos de plástico para la pestaña"
+}
+
+### POST /product-category
+POST http://localhost:3001/product-category
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "name": "Insumos de Cejas",
+  "description": "Productos para la ceja"
+}
+
+### POST /product-category
+POST http://localhost:3001/product-category
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "name": "Productos varios",
+  "description": "Productos de diversas variedades"
+}
+
+### DELETE /product-category/{id}
+DELETE http://localhost:3001/product-category/93e92fd9-059d-41ff-a0e1-eb7bdf42ec3c
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+### POST /product
+POST http://localhost:3001/products
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "name": "Bliste de Pestañas",
+  "description": "Grosor de 0.05 12 filas",
+  "price": 1370,
+  "stock": 10,
+  "minStock": 5,
+  "productCategory": "1bf54884-c415-4d8b-93e2-edc4c58fc470"
+}
+
+### POST /product
+POST http://localhost:3001/products
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "name": "Bliste de Pestañas",
+  "description": "Grosor de 0.05 12 filas",
+  "price": 1270,
+  "stock": 10,
+  "minStock": 5,
+  "productCategory": "1bf54884-c415-4d8b-93e2-edc4c58fc470"
+}
+
+### POST /product
+POST http://localhost:3001/products
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "name": "Bliste de Pestañas",
+  "description": "Grosor de 0.07 16 filas",
+  "price": 780,
+  "stock": 10,
+  "minStock": 5,
+  "productCategory": "1bf54884-c415-4d8b-93e2-edc4c58fc470"
+}
+
+### POST /product
+POST http://localhost:3001/products
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "name": "Adhesivo",
+  "description": "Secado Rápido 0.03 segundos",
+  "price": 1800,
+  "stock": 10,
+  "minStock": 5,
+  "productCategory": "0a6fb8db-c105-4276-ab95-4329c1fac51e"
+}
+
+### POST /product
+POST http://localhost:3001/products
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "name": "Adhesivo",
+  "description": "Secado Lento 1 a 2 segundos",
+  "price": 1800,
+  "stock": 10,
+  "minStock": 5,
+  "productCategory": "0a6fb8db-c105-4276-ab95-4329c1fac51e"
+}
+
+### POST /product
+POST http://localhost:3001/products
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "name": "Adhesivo",
+  "description": "Secado Lento 0.05 segundos",
+  "price": 1800,
+  "stock": 10,
+  "minStock": 5,
+  "productCategory": "0a6fb8db-c105-4276-ab95-4329c1fac51e"
+}
+
+### POST /product
+POST http://localhost:3001/products
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "name": "Adhesivo con Extra Bonder",
+  "description": "Secado 0.3 segundos",
+  "price": 2000,
+  "stock": 10,
+  "minStock": 5,
+  "productCategory": "0a6fb8db-c105-4276-ab95-4329c1fac51e"
+}
+
+### POST /product insumos de pestañas
+POST http://localhost:3001/products
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "name": "Primer",
+  "description": "Primer para pestañas",
+  "price": 900,
+  "stock": 10,
+  "minStock": 5,
+  "productCategory": "03c4a99b-457e-4414-b274-1927de134704"
+}
+
+### POST /product insumos de pestañas
+POST http://localhost:3001/products
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "name": "Removedor",
+  "description": "Removedor de pestañas",
+  "price": 900,
+  "stock": 10,
+  "minStock": 5,
+  "productCategory": "03c4a99b-457e-4414-b274-1927de134704"
+}
+
+### POST /product insumos de pestañas
+POST http://localhost:3001/products
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "name": "Bonder",
+  "description": "Bonder para pestañas",
+  "price": 900,
+  "stock": 10,
+  "minStock": 5,
+  "productCategory": "03c4a99b-457e-4414-b274-1927de134704"
+}
+
+### POST /product insumos de pestañas espuma
+POST http://localhost:3001/products
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "name": "Espuma",
+  "description": "Espuma para pestañas",
+  "price": 900,
+  "stock": 10,
+  "minStock": 5,
+  "productCategory": "03c4a99b-457e-4414-b274-1927de134704"
+}
+
+### POST /product pinzas
+POST http://localhost:3001/products
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "name": "Set de Pinzas Clasicas",
+  "description": "Set de pinzas para estilos de pestañas clasicas",
+  "price": 1450,
+  "stock": 10,
+  "minStock": 5,
+  "productCategory": "1bf54884-c415-4d8b-93e2-edc4c58fc470"
+}
+
+### POST /product pinzas
+POST http://localhost:3001/products
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "name": "Pinza",
+  "description": "Pinza para pestañas clasicas",
+  "price": 1450,
+  "stock": 10,
+  "minStock": 5,
+  "productCategory": "1bf54884-c415-4d8b-93e2-edc4c58fc470"
+}
+
+### POST /product pinzas
+POST http://localhost:3001/products
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "name": "Pinza de Volumen",
+  "description": "Pinza para pestañas de volumen",
+  "price": 1450,
+  "stock": 10,
+  "minStock": 5,
+  "productCategory": "1bf54884-c415-4d8b-93e2-edc4c58fc470"
+}
+
+### POST /product pinzas
+POST http://localhost:3001/products
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "name": "Pinza de Volumen",
+  "description": "Pinza para pestañas de volumen",
+  "price": 1450,
+  "stock": 10,
+  "minStock": 5,
+  "productCategory": "1bf54884-c415-4d8b-93e2-edc4c58fc470"
+}
+
+### POST /product Insumos plásticos
+POST http://localhost:3001/products
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "name": "Brocha",
+  "description": "Brocha para pestañas",
+  "price": 50,
+  "stock": 10,
+  "minStock": 5,
+  "productCategory": "267f49d5-40ff-4b98-a36c-4b0eafd3ae8f"
+}
+
+### POST /product Insumos plásticos cinta adhesiva
+POST http://localhost:3001/products
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "name": "Cinta Adhesiva",
+  "description": "Cinta adhesiva transparente",
+  "price": 100,
+  "stock": 10,
+  "minStock": 5,
+  "productCategory": "267f49d5-40ff-4b98-a36c-4b0eafd3ae8f"
+}
+
+### POST /product Insumos plásticos cinta adhesiva
+POST http://localhost:3001/products
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "name": "Cinta Adhesiva",
+  "description": "Cinta adhesiva blanca",
+  "price": 100,
+  "stock": 10,
+  "minStock": 5,
+  "productCategory": "267f49d5-40ff-4b98-a36c-4b0eafd3ae8f"
+}
+
+### POST /product Insumos plásticos cinta adhesiva
+POST http://localhost:3001/products
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "name": "Cinta Adhesiva",
+  "description": "Cinta adhesiva de color",
+  "price": 100,
+  "stock": 10,
+  "minStock": 5,
+  "productCategory": "267f49d5-40ff-4b98-a36c-4b0eafd3ae8f"
+}
+
+### POST /product Insumos plásticos
+POST http://localhost:3001/products
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "name": "Micro Brush",
+  "description": "Micro Brush para pestañas color rosado",
+  "price": 300,
+  "stock": 10,
+  "minStock": 5,
+  "productCategory": "267f49d5-40ff-4b98-a36c-4b0eafd3ae8f"
+}
+
+### POST /product Insumos plásticos cepillo
+POST http://localhost:3001/products
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "name": "Cepillo",
+  "description": "Cepillo para pestañas color rosado",
+  "price": 250,
+  "stock": 10,
+  "minStock": 5,
+  "productCategory": "267f49d5-40ff-4b98-a36c-4b0eafd3ae8f"
+}
+
+### POST /product Insumos plásticos aplicadores rosado
+POST http://localhost:3001/products
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "name": "Aplicadores",
+  "description": "Aplicadores para pestañas color rosado",
+  "price": 300,
+  "stock": 10,
+  "minStock": 5,
+  "productCategory": "267f49d5-40ff-4b98-a36c-4b0eafd3ae8f"
+}
+
+### POST /product inseumos de cejas lapiz para ceja
+POST http://localhost:3001/products
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "name": "Lapiz para Cejas",
+  "description": "Lapiz para cejas color marron",
+  "price": 300,
+  "stock": 10,
+  "minStock": 5,
+  "productCategory": "551ec4d1-d377-4766-8811-5012a8fab0d2"
+}
+
+### POST /product productos varios
+POST http://localhost:3001/products
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "name": "Envase para agua",
+  "description": "Envase para agua de 500ml",
+  "price": 350,
+  "stock": 10,
+  "minStock": 5,
+  "productCategory": "3ec30abf-59c1-474b-b97e-bbcfd33b89f9"
+}
+
+### POST /product productos varios parches 800
+POST http://localhost:3001/products
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "name": "Parches",
+  "description": "Parches para pestañas",
+  "price": 800,
+  "stock": 10,
+  "minStock": 5,
+  "productCategory": "3ec30abf-59c1-474b-b97e-bbcfd33b89f9"
+}
+
+### POST /product productos varios  higrometro digitla 1100
+POST http://localhost:3001/products
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "name": "Higrometro Digital",
+  "description": "Higrometro digital para medir la humedad",
+  "price": 1100,
+  "stock": 10,
+  "minStock": 5,
+  "productCategory": "3ec30abf-59c1-474b-b97e-bbcfd33b89f9"
+}
+
+### POST /product productos varios jades
+POST http://localhost:3001/products
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "name": "Jades",
+  "description": "Jades para masajes faciales en 2 colores",
+  "price": 300,
+  "stock": 10,
+  "minStock": 5,
+  "productCategory": "3ec30abf-59c1-474b-b97e-bbcfd33b89f9"
+}
+### GET all products
+GET http://localhost:3001/products
+
+### POST /product-image fist image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "aafb21b3-2cb4-4865-b56b-8d3487636646",
+  "url": "https://drive.google.com/uc?export=view&id=1JcBJiBGqRFdWQShwQESkmcxdGrKy_0oh"
+}
+
+### POST /product-image second image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "aafb21b3-2cb4-4865-b56b-8d3487636646",
+  "url": "https://drive.google.com/uc?export=view&id=1SgueOxWL24Hoig5ErKMqmoWywngU3cHU"
+}
+
+### POST /product-image next product fist image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "d744dd51-d0be-45a2-8dde-68a3aef52f46",
+  "url": "https://drive.google.com/uc?export=view&id=1ZZWKI-dwIxhPVd1qIj8INKxEgsa0BVae"
+}
+
+### POST /product-image next product second image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "d744dd51-d0be-45a2-8dde-68a3aef52f46",
+  "url": "https://drive.google.com/uc?export=view&id=1JyNvwC7S0RnFZZVllC0ZTRXeUtTQmad0"
+}
+
+### POST /product-image next product fist image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "aafb21b3-2cb4-4865-b56b-8d3487636646",
+  "url": "https://drive.google.com/uc?export=view&id=1GJL-ZqxAZ3wWilG8ouBTz5iFUHO_czqz"
+}
+
+### POST /product-image next product second image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "aafb21b3-2cb4-4865-b56b-8d3487636646",
+  "url": "https://drive.google.com/uc?export=view&id=1GJs0QjOoQRORqunDdGqr1UIKor_7e0QM"
+}
+
+### POST /product-image next product fist image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "2fc350d6-9673-4af2-8827-f48e47ccab40",
+  "url": "https://drive.google.com/uc?export=view&id=1Ozn5Mnocuj4qOUdIqQ0CCbPqaEVWSq3c"
+}
+
+### POST /product-image next product second image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "2fc350d6-9673-4af2-8827-f48e47ccab40",
+  "url": "https://drive.google.com/uc?export=view&id=1wtGTY8g5bjXdguI6zdQV-PFobkvo-w91"
+}
+
+### POST /product-image next product fist image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "f34fdc48-9a28-4333-8ab9-00fca974b75b",
+  "url": "https://drive.google.com/uc?export=view&id=1cSzKI0awv-2lwaUpC5sNdmP-E6OJb1a9"
+}
+
+### POST /product-image next product second image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "f34fdc48-9a28-4333-8ab9-00fca974b75b",
+  "url": "https://drive.google.com/uc?export=view&id=11t58zEW8YmQXEFvpygceVUGH6SM8c_0d"
+}
+
+
+### POST /product-image next product fist image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "2e039f65-d482-4607-8cd1-46aef65fdb66",
+  "url": "https://drive.google.com/uc?export=view&id=19DRXGttt_f9cxIraCXZFY9ZYpPLF6Tb8"
+}
+
+### POST /product-image next product second image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "2e039f65-d482-4607-8cd1-46aef65fdb66",
+  "url": "https://drive.google.com/uc?export=view&id=1nGxG5FggBpoAPAl-qjp8L4J19haBlmiH"
+}
+
+### POST /product-image next product fist image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "7b5091b7-54c0-44c8-a6d5-24aed0f0af3e",
+  "url": "https://drive.google.com/uc?export=view&id=1yqyWj4VIWR7jwSptgLm5QIgyKWHIfNtp"
+}
+
+### POST /product-image next product second image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "7b5091b7-54c0-44c8-a6d5-24aed0f0af3e",
+  "url": "https://drive.google.com/uc?export=view&id=1rcDZHBqUZCG2qIk9KQek2v2w4ByM8ZBh"
+}
+
+### POST /product-image next product fist image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "d744dd51-d0be-45a2-8dde-68a3aef52f46",
+  "url": "https://drive.google.com/uc?export=view&id=1tYx7KmFo1EcuxYn0fjKPy7d0SxpLOe9N"
+}
+
+### POST /product-image next product second image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "d744dd51-d0be-45a2-8dde-68a3aef52f46",
+  "url": "https://drive.google.com/uc?export=view&id=15xpfW8wdm7DNFcXAh_c8IDD9SELXbZVH"
+}
+
+### POST /product-image next product fist image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "ab0135dd-a971-4460-af66-eab0216d4417",
+  "url": "https://drive.google.com/uc?export=view&id=1SHRsB-NK2OmRYz_pjSgOHSXaOvk-Iz-q"
+}
+
+### POST /product-image next product second image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "ab0135dd-a971-4460-af66-eab0216d4417",
+  "url": "https://drive.google.com/uc?export=view&id=1Imyd7kR3MLyI4V5jnWCPghC1MRAALXYo"
+}
+
+### POST /product-image next product fist image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "c7300fba-dcf1-4a24-97f7-48eeedb0789d",
+  "url": "https://drive.google.com/uc?export=view&id=1BHyFhpol4ZrzPsHL5SfxD8N9gq3W03mD"
+}
+
+### POST /product-image next product second image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "c7300fba-dcf1-4a24-97f7-48eeedb0789d",
+  "url": "https://drive.google.com/uc?export=view&id=1g4lADVtCRRKZLBQgm4Alb6WRks8vpXkS"
+}
+
+### POST /product-image next product fist image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "1bdc4cca-766b-4ad0-a4d5-55e3d936bd78",
+  "url": "https://drive.google.com/uc?export=view&id=1u338Em1HsQWWN-rJJDflRwOkTHfK_vwh"
+}
+
+### POST /product-image next product second image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "1bdc4cca-766b-4ad0-a4d5-55e3d936bd78",
+  "url": "https://drive.google.com/uc?export=view&id=1dOu95l0ux2YRpJhKgzP0ZXZuJJ1OmZAY"
+}
+
+### POST /product-image next product fist image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "e0d1668d-5fea-425c-a482-88cee8d7ecf3",
+  "url": "https://drive.google.com/uc?export=view&id=1om1mQGiRzx1oiCCxXdlplZ3cRO1DkI5_"
+}
+
+### POST /product-image next product second image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "e0d1668d-5fea-425c-a482-88cee8d7ecf3",
+  "url": "https://drive.google.com/uc?export=view&id=1rD1L1qCnA5dUrpDlES3yQCPddUencphR"
+}
+
+### POST /product-image next product fist image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "f6ccd1eb-f1dd-45f9-9b9f-15a9fd0de38a",
+  "url": "https://drive.google.com/uc?export=view&id=11GTRGkztFVdluX2iC23D8yLJBkgSvzwv"
+}
+
+### POST /product-image next product second image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "f6ccd1eb-f1dd-45f9-9b9f-15a9fd0de38a",
+  "url": "https://drive.google.com/uc?export=view&id=1-c4_xj4IkUVv9nk57mOrVs8OcnPtgqie"
+}
+
+
+### POST /product-image next product fist image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "e72cfb15-a0b7-4b14-8260-a0b4a33b119d",
+  "url": "https://drive.google.com/uc?export=view&id=1G8d3EfAW46Kz2n9DGdTjGDus6P0DNX1i"
+}
+
+
+### POST /product-image next product second image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "e72cfb15-a0b7-4b14-8260-a0b4a33b119d",
+  "url": "https://drive.google.com/uc?export=view&id=1IUXM5_AqoFRkLV5Gl9RXHyGTmcbjEkYa"
+}
+
+
+### POST /product-image next product fist image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "5ef69a40-1ef4-47e9-82a9-1ba12cd6cab2",
+  "url": "https://drive.google.com/uc?export=view&id=1AGuAIk9BznnUMwA2iduCxj6cJtN0tQ8H"
+}
+
+### POST /product-image next product second image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "5ef69a40-1ef4-47e9-82a9-1ba12cd6cab2",
+  "url": "https://drive.google.com/uc?export=view&id=1ghafGNBGs7EvCUM2zN65E_jt9k6m4fp0"
+}
+
+### POST /product-image next product fist image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "12c98b1f-f32e-4756-a8d6-51ef08c68e75",
+  "url": "https://drive.google.com/uc?export=view&id=1pH4uFnSL4ra5ozNjrYULNqGc6pExg1ta"
+}
+
+### POST /product-image next product second image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "12c98b1f-f32e-4756-a8d6-51ef08c68e75",
+  "url": "https://drive.google.com/uc?export=view&id=15KTQRd3S8Rb1XEYPaFPpCbt7jhKoII6a"
+}
+
+### POST /product-image next product fist image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "8478fa13-756e-4e12-be3c-1fa82777b386",
+  "url": "https://drive.google.com/uc?export=view&id=1H1QJLiWtzbGnaNPBaOVihd5Ru093sfO3"
+}
+
+### POST /product-image next product second image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "8478fa13-756e-4e12-be3c-1fa82777b386",
+  "url": "https://drive.google.com/uc?export=view&id=1d2ytfGJFcBWSrjSP1x4XWM6XPajGASKc"
+}
+
+### POST /product-image next product fist image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "b9823a0d-a4cd-4cc2-99b4-296f1de05b83",
+  "url": "https://drive.google.com/uc?export=view&id=1cVrMwtQnwt9-UBlMGFcf7611OYOxl4Ve"
+}
+
+### POST /product-image next product second image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "b9823a0d-a4cd-4cc2-99b4-296f1de05b83",
+  "url": "https://drive.google.com/uc?export=view&id=13apcWdYXFz02NZ-HSGiARbEGEFfCQnpV"
+}
+
+### POST /product-image next product fist image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "dd29a107-4e8a-4b07-809a-fa32657767db",
+  "url": "https://drive.google.com/uc?export=view&id=1aN04t5w_idh8C_eBVqaYiRElRrq79w4C"
+}
+
+### POST /product-image next product second image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "dd29a107-4e8a-4b07-809a-fa32657767db",
+  "url": "https://drive.google.com/uc?export=view&id=1VPTNORjG4URbEImutX7AdftM6yatgGXd"
+}
+
+### POST /product-image next product fist image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "fb9c49a2-f80c-4298-847f-05a1aa045f82",
+  "url": "https://drive.google.com/uc?export=view&id=1KFpdAkdxvB2QXG0iGwV3sALxQ5LNrA16"
+}
+
+### POST /product-image next product second image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "fb9c49a2-f80c-4298-847f-05a1aa045f82",
+  "url": "https://drive.google.com/uc?export=view&id=1NonXXSLqC_tkxSMc_04EoaeLKi8KUOlU"
+}
+
+
+### POST /product-image next product fist image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "94898481-d43f-4555-a4dd-474c8daa172f",
+  "url": "https://drive.google.com/uc?export=view&id=1-umYc5KkNUEvlTCZvTCTJvphzT3hQZ1n"
+}
+
+### POST /product-image next product second image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "94898481-d43f-4555-a4dd-474c8daa172f",
+  "url": "https://drive.google.com/uc?export=view&id=1SowzAyM46aoPdxjiy8wPXtEFEzvU25Mz"
+}
+
+### POST /product-image next product fist image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "d234899a-cd70-4645-9e28-f580c0cf3d64",
+  "url": "https://drive.google.com/uc?export=view&id=1n6tn4V6jN2QH_Q-Efrzvfyq5w-vTWdJc"
+}
+
+### POST /product-image next product second image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "d234899a-cd70-4645-9e28-f580c0cf3d64",
+  "url": "https://drive.google.com/uc?export=view&id=1PlK2At04AY995_xqVPEIyF5MAaSww6H-"
+}
+
+### POST /product-image next product fist image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "e499f3f1-8c98-4cb8-890d-85517bc21b58",
+  "url": "https://drive.google.com/uc?export=view&id=1jBCJ1SEJ-UGcqw_1s7Wk7TH7lDQXYyGY"
+}
+
+
+### POST /product-image next product second image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "e499f3f1-8c98-4cb8-890d-85517bc21b58",
+  "url": "https://drive.google.com/uc?export=view&id=1vCxqwLu3At7u-ccNGo9P4b0SidPyqmKd"
+}
+
+### POST /product-image next product fist image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "96c2d534-db25-46e8-9d05-1e73b46a1e05",
+  "url": "https://drive.google.com/uc?export=view&id=1UMyBrOWeEiVB12rnWhDayAowDcyQQGxD"
+}
+
+### POST /product-image next product second image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "96c2d534-db25-46e8-9d05-1e73b46a1e05",
+  "url": "https://drive.google.com/uc?export=view&id=1mg9b4BOoNG5JB_9WTUuPiu4LNiSERgKM"
+}
+
+### POST /product-image next product fist image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "8f5bf41e-4313-4e40-9cc3-4ef82cf6a7b6",
+  "url": "https://drive.google.com/uc?export=view&id=1jBCJ1SEJ-UGcqw_1s7Wk7TH7lDQXYyGY"
+}
+
+### POST /product-image next product second image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "8f5bf41e-4313-4e40-9cc3-4ef82cf6a7b6",
+  "url": "https://drive.google.com/uc?export=view&id=1vCxqwLu3At7u-ccNGo9P4b0SidPyqmKd"
+}
+
+
+### POST /product-image next product fist image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "43716ca5-d19e-4257-8dcc-8378e65bbea1",
+  "url": "https://drive.google.com/uc?export=view&id=1dd1w4-5F2WDptawDaM_5KINTEm-zMles"
+}
+
+### POST /product-image next product second image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "43716ca5-d19e-4257-8dcc-8378e65bbea1",
+  "url": "https://drive.google.com/uc?export=view&id=194-u5RGd5w_BtxT6X72Y1m9HGsQfcrxP"
+}
+
+### POST /product-image next product fist image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "ed563302-4692-45fc-8e44-643fad16580a",
+  "url": "https://drive.google.com/uc?export=view&id=1SysPyrIdXAy7ChRg1JaxrnuThly8nqLf"
+}
+
+### POST /product-image next product second image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "ed563302-4692-45fc-8e44-643fad16580a",
+  "url": "https://drive.google.com/uc?export=view&id=1p9Az-jHC6cr0EQh9HqOSlRLCNNj2LRYv"
+}
+
+### POST /product-image next product fist image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "0e79efca-ee9b-4911-9fd0-8df15354dc87",
+  "url": "https://drive.google.com/uc?export=view&id=1tv48qzLriTuVz5zCdDJ4vTblhtsqnezw"
+}
+
+### POST /product-image next product second image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "0e79efca-ee9b-4911-9fd0-8df15354dc87",
+  "url": "https://drive.google.com/uc?export=view&id=10qcGYF4cR8TVe-EByvZbQk8TCWSxkL9P"
+}
+
+### POST /product-image next product fist image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "141c28ec-97f1-461d-b35a-ac934515fdd7",
+  "url": "https://drive.google.com/uc?export=view&id=1GJs0QjOoQRORqunDdGqr1UIKor_7e0QM"
+}
+
+### POST /product-image next product second image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "ed563302-4692-45fc-8e44-643fad16580a",
+  "url": "https://drive.google.com/uc?export=view&id=1p9Az-jHC6cr0EQh9HqOSlRLCNNj2LRYv"
+}
+
+### POST /product-image next product fist image
+POST http://localhost:3001/product-image
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "product": "dd29a107-4e8a-4b07-809a-fa32657767db",
+  "url": "https://drive.google.com/uc?export=view&id=1VPTNORjG4URbEImutX7AdftM6yatgGXd"
+}

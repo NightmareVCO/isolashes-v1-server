@@ -1,0 +1,51 @@
+### CREATE new appointment
+POST http://localhost:3001/appointments
+user-id: 520d0763-2def-428f-a443-113f371d254c
+Content-Type: application/json
+
+{
+  "fullName": "Vladimir Curiel User",
+  "phone": "1234567890",
+  "email": "vladimir@outlook.com",
+  "date": "2024-05-11",
+  "hours": "c24a4d3a-e3eb-423b-9543-10790e0f5b30",
+  "service": "f1e425fc-361c-4a4f-a0bf-ad2adf73d934",
+  "branch": "911a2cfc-66a5-4669-ad50-7765f44d3ee2"
+}
+
+### CREATE new appointment
+POST http://localhost:3001/appointments
+user-Id:
+Content-Type: application/json
+
+{
+  "fullName": "Vladimir Curiel No User",
+  "phone": "1234567890",
+  "email": "vladimir@outlook.com",
+  "date": "2024-05-11",
+  "hours": "c24a4d3a-e3eb-423b-9543-10790e0f5b30",
+  "service": "f1e425fc-361c-4a4f-a0bf-ad2adf73d934",
+  "branch": "911a2cfc-66a5-4669-ad50-7765f44d3ee2"
+}
+
+### Get all appointments
+GET http://localhost:3001/appointments
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+# orderBy: { ticket: 'desc' },
+# skip,
+# take,
+# cursor,
+# where,
+
+### Get all appointments
+GET http://localhost:3001/appointments?order=ticket&orderDirection=asc&skip=2&take=1&where=branch&whereValue=300bbbf7-52e2-477f-bb2a-1bcfc038bdc2
+user-id: fb5c3b6a-c1a3-46c0-a69c-d7529633ef89
+
+
+### Get all appointments
+GET http://localhost:3001/appointments?order=createdAt&orderDirection=desc&takeValue=9&skipValue=9
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+### Get all appointments hours available
+GET http://localhost:3001/appointments/available/0/2024-05-27

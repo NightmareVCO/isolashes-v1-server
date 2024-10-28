@@ -1,0 +1,107 @@
+### POST create new hour
+POST http://localhost:3001/hours
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "time": "8:00 AM - 9:00 AM"
+}
+
+// create form 9 to 6pm, all at once with post request
+### POST create new hour
+POST http://localhost:3001/hours
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "time": "9:00 AM - 10:00 AM"
+}
+
+### POST create new hour
+POST http://localhost:3001/hours
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "time": "10:00 AM - 11:00 AM"
+}
+
+### POST create new hour
+POST http://localhost:3001/hours
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "time": "11:00 AM - 12:00 PM"
+}
+
+### POST create new hour
+POST http://localhost:3001/hours
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "time": "12:00 PM - 1:00 PM"
+}
+
+### POST create new hour
+POST http://localhost:3001/hours
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "time": "1:00 PM - 2:00 PM"
+}
+
+### POST create new hour
+POST http://localhost:3001/hours
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "time": "2:00 PM - 3:00 PM"
+}
+
+### POST create new hour
+POST http://localhost:3001/hours
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "time": "3:00 PM - 4:00 PM"
+}
+
+### POST create new hour
+POST http://localhost:3001/hours
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "time": "4:00 PM - 5:00 PM"
+}
+
+### POST create new hour
+POST http://localhost:3001/hours
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "time": "5:00 PM - 6:00 PM"
+}
+
+### POST create new hour
+POST http://localhost:3001/hours
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "time": "6:00 PM - 7:00 PM"
+}
+
+
+### GET all hours
+GET http://localhost:3001/hours
+
+
+### GET hours by name
+GET http://localhost:3001/hours/name/8%3A00+AM+-+9%3A00+AM

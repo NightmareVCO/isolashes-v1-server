@@ -1,0 +1,37 @@
+### post direction
+POST http://localhost:3001/user/address
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+    "country": "Republica Dominicana",
+    "state": "Santiago de los Caballeros",
+    "city": "Santiago, Reparto Este",
+    "street": "Prof. Federico Izq.",
+    "number": "2",
+    "zipCode": "51000"
+}
+
+### GET direction
+GET http://localhost:3001/user/address?isString=true
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+### DELETE direction
+DELETE http://localhost:3001/user/address/0f18ef62-5aef-4b6f-9531-30f15ef8e9d2
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+### PATCH direction
+PATCH http://localhost:3001/user/address/36fe0066-93bc-49f7-9bfd-1414a1955b00
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+    "country": "Republica Dominicana",
+    "state": "Santiago de los Caballeros",
+    "city": "Santiago, Reparto Este",
+    "street": "Prof. Federico Izq.",
+    "number": "22454",
+    "zipCode": "51000"
+}

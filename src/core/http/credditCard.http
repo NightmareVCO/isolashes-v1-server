@@ -1,0 +1,23 @@
+  # number     String @password
+  # expiration String @password
+  # cvv        String @password
+  # name       String @password
+  # lastName   String @password
+
+### POST credit card
+POST http://localhost:3001/user/credit-card
+Content-Type:  application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "number": "1234567890123456",
+  "expiration": "11/25",
+  "cvv": "123",
+  "name": "John",
+  "lastName": "Doe"
+}
+
+### GET credit card
+GET http://localhost:3001/user/credit-card
+Content-Type:  application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0

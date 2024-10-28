@@ -1,0 +1,47 @@
+### POST a new user
+POST http://localhost:3001/auth/signup
+Content-Type: application/json
+
+{
+  "name": "John",
+  "lastName": "Doe",
+  "email": "johndoe64@admin.com",
+  "password": "AmatistaMorado3011!",
+  "birthDate": "1990-11-30",
+  "phone": "80955366977"
+}
+
+### POST login
+POST http://localhost:3001/auth/login
+Content-Type: application/json
+
+{
+  "email": "johndoe64@admin.com",
+  "password": "AmatistaMorado3011!"
+}
+
+### GET a user by email
+GET http://localhost:3001/auth/user/johndoe64@admin.com
+Content-Type: application/json
+
+### GET a user by id
+GET http://localhost:3001/auth/user/520d0763-2def-428f-a443-113f371d254c
+Content-Type: application/json
+
+### UPDATE a user by id
+PUT http://localhost:3001/auth/user/520d0763-2def-428f-a443-113f371d254c
+Content-Type: application/json
+
+{
+  "name": "John",
+  "lastName": "Doe Jr.",
+  "email": "johndoe@admin.com",
+  "phone": "8095556677"
+}
+
+### GET all users
+GET http://localhost:3001/auth/users
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+
+# db10d583-bda9-4d25-9169-4a0e47bc731b

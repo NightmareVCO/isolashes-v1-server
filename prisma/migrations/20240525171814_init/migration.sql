@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "User" ALTER COLUMN "points" SET DEFAULT 0,
+ALTER COLUMN "roles" SET DEFAULT ARRAY['CUSTOMER']::"Roles"[];

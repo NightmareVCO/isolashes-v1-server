@@ -1,0 +1,81 @@
+### post create a shopping cart
+POST http://localhost:3001/shopping-cart
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+    "userId": "f3ab8c20-e519-48a9-a311-2e8019bbd3a0"
+}
+
+### get shopping cart
+GET http://localhost:3001/shopping-cart
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+### get my shopping cart
+GET http://localhost:3001/shopping-cart/282a0de9-bc30-413a-97f0-5eb95532a0e1
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+
+### post add a product to shopping cart
+POST http://localhost:3001/shopping-cart/282a0de9-bc30-413a-97f0-5eb95532a0e1/add-product
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+    "userId": "f3ab8c20-e519-48a9-a311-2e8019bbd3a0",
+    "productId": "e35e3fca-c360-42d2-8be7-d2e0567aa8ee",
+    "quantity": 1
+}
+
+### post add a product to shopping cart
+POST http://localhost:3001/shopping-cart/282a0de9-bc30-413a-97f0-5eb95532a0e1/add-product
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+    "userId": "f3ab8c20-e519-48a9-a311-2e8019bbd3a0",
+    "productId": "2fc350d6-9673-4af2-8827-f48e47ccab40",
+    "quantity": 3
+}
+
+### patch update a product in shopping cart
+PATCH http://localhost:3001/shopping-cart/1ea00a58-a1fe-4b13-9ba4-15196516c8c1/update-product
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+    "quantity": 2
+}
+
+### get products from shopping cart
+GET http://localhost:3001/shopping-cart/282a0de9-bc30-413a-97f0-5eb95532a0e1/get-products
+Content-Type: application/json
+
+
+### get total price from shopping cart
+GET http://localhost:3001/shopping-cart/282a0de9-bc30-413a-97f0-5eb95532a0e1/total-price
+
+### get total item
+GET http://localhost:3001/shopping-cart/282a0de9-bc30-413a-97f0-5eb95532a0e1/total-items
+
+### get total-items-and-price
+GET http://localhost:3001/shopping-cart/282a0de9-bc30-413a-97f0-5eb95532a0e1/total-items-and-price
+
+
+### get total-price-per-item
+GET http://localhost:3001/shopping-cart/282a0de9-bc30-413a-97f0-5eb95532a0e1/total-price-per-item
+
+### total-price-per-item-and-total-price
+GET http://localhost:3001/shopping-cart/282a0de9-bc30-413a-97f0-5eb95532a0e1/total-price-per-item-and-total-price
+
+### delete a product from shopping cart
+DELETE http://localhost:3001/shopping-cart/282a0de9-bc30-413a-97f0-5eb95532a0e1/remove-product/98baf8f4-68c7-4628-8c59-76da9867c0be
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+### clear shopping cart
+DELETE http://localhost:3001/shopping-cart/282a0de9-bc30-413a-97f0-5eb95532a0e1/clear-cart
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0

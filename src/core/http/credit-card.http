@@ -1,0 +1,13 @@
+### POST prouct
+POST http://localhost:3001/credit-card
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+      "number": "1111222233334444",
+      "expiration": "12/25",
+      "cvv": "123",
+      "name": "John",
+      "lastName": "Doe",
+      "owner": "f3ab8c20-e519-48a9-a311-2e8019bbd3a0"
+}

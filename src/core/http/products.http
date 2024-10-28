@@ -1,0 +1,14 @@
+### GET ALL PRODUCTS
+GET http://localhost:3001/products
+
+### GET PRODUCT BY NAME
+GET http://localhost:3001/products?name=product1
+
+### GET ALL PRODUCT CATEGORIES
+GET http://localhost:3001/product-category
+
+### GET ALL PRODUCTS IMAGES
+GET http://localhost:3001/product-images
+
+### GET NEW PRODUCTS
+GET http://localhost:3001/products?where=isNew&whereValue=false

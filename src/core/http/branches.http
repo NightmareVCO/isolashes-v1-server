@@ -1,0 +1,79 @@
+### POST a new branch
+POST http://localhost:3001/branches
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "name": "Reparto Del Este",
+  "address": "C.E. León Jimenez, Santiago de los Caballeros",
+  "phone": "809-601-2440"
+}
+
+
+### POST a new branch
+POST http://localhost:3001/branches
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "name": "Los Laureles",
+  "address": "Calle 3",
+  "phone": "809-601-2441"
+}
+
+
+### POST a new branch
+POST http://localhost:3001/branches
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "name": "Los Laureles",
+  "address": "Calle 3",
+  "phone": "809-601-2441",
+  "email": "email@email.com",
+  "schedule": "8:00am - 5:00pm",
+  "status": true,
+  "cover": "https://www.google.com"
+}
+
+### PATCH a branch
+PATCH http://localhost:3001/branches/d5ea8736-4085-4ad7-80f6-4f1d717a2745
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+  "name": "Los Laureles",
+  "address": "Calle 3",
+  "phone": "809-601-2441",
+  "email": "email@email.com",
+  "schedule": "8:00am - 5:00pm",
+  "status": true,
+  "cover": "https://drive.google.com/uc?export=view&id=1om1yOlyajX2ayjZ1--VAbHfK3pvbsUwW"
+}
+
+### PATCH a branch
+PATCH http://localhost:3001/branches/2466973c-f9f0-4743-80b2-8a127fdbecaa
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+    "id": "2466973c-f9f0-4743-80b2-8a127fdbecaa",
+    "createdAt": "2024-06-06T02:30:38.183Z",
+    "updatedAt": "2024-07-27T15:25:09.149Z",
+    "name": "Reparto Del Este",
+    "address": "C.E. León Jimenez, Santiago de los Caballeros",
+    "phone": "809-601-2440",
+    "email": "isolashes@isolashes.com",
+    "schedule": "8:00am - 6:00pm",
+    "cover": "https://drive.google.com/uc?export=view&id=1om1yOlyajX2ayjZ1--VAbHfK3pvbsUwW",
+    "status": true
+}
+
+### GET all branches
+GET http://localhost:3001/branches
+
+### DELETE a branch
+DELETE http://localhost:3001/branches
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0

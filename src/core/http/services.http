@@ -1,0 +1,272 @@
+# Extensión de Pestañas
+# Micropigmentación de Labios
+# Depilación de Cejas
+
+
+### POST create services
+POST http://localhost:3001/services
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+    "name": "Clásicas",
+    "description": "Extensiones de pestañas estilo clásico",
+    "price": 1500,
+    "serviceCategory": "5ccda119-3176-4fac-b1a9-57880b7ce119"
+}
+
+### POST create services
+POST http://localhost:3001/services
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+    "name": "Mega clásicas",
+    "description": "Extensiones de pestañas estilo clásico en mayor cantidad",
+    "price": 1800,
+    "serviceCategory": "5ccda119-3176-4fac-b1a9-57880b7ce119"
+}
+
+### POST create services
+POST http://localhost:3001/services
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+    "name": "Volumen natural",
+    "description": "Extensiones de pestañas estilo volumen natural",
+    "price": 1800,
+    "serviceCategory": "5ccda119-3176-4fac-b1a9-57880b7ce119"
+}
+
+### POST create services
+POST http://localhost:3001/services
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+    "name": "Volumen brasileño",
+    "description": "Extensiones de pestañas estilo volumen brasileño",
+    "price": 1800,
+    "serviceCategory": "5ccda119-3176-4fac-b1a9-57880b7ce119"
+}
+
+### POST create services
+POST http://localhost:3001/services
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+    "name": "Volumen ruso",
+    "description": "Extensiones de pestañas estilo volumen ruso",
+    "price": 2500,
+    "serviceCategory": "5ccda119-3176-4fac-b1a9-57880b7ce119"
+}
+
+### POST create services
+POST http://localhost:3001/services
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+    "name": "Mega volumen",
+    "description": "Extensiones de pestañas estilo mega volumen",
+    "price": 3000,
+    "serviceCategory": "5ccda119-3176-4fac-b1a9-57880b7ce119"
+}
+
+### POST create services
+POST http://localhost:3001/services
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+    "name": "Hidratación labios",
+    "description": "Hidratante labial",
+    "price": 3500,
+    "serviceCategory": "1bca8394-270b-4af5-b46e-a5b0b1b54781"
+}
+
+### POST create services
+POST http://localhost:3001/services
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+    "name": "Labios Acuarela",
+    "description": "Labios estilo acuarela",
+    "price": 6500,
+    "serviceCategory": "1bca8394-270b-4af5-b46e-a5b0b1b54781"
+}
+
+### POST create services
+POST http://localhost:3001/services
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+    "name": "Micropigmentación",
+    "description": "Micropigmentación de labios",
+    "price": 12500,
+    "serviceCategory": "1bca8394-270b-4af5-b46e-a5b0b1b54781"
+}
+
+
+### POST create services
+POST http://localhost:3001/services
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+    "name": "Depilación bigote",
+    "description": "Depilación de bigote",
+    "price": 300,
+    "serviceCategory": "1bca8394-270b-4af5-b46e-a5b0b1b54781"
+}
+
+### POST create services
+POST http://localhost:3001/services
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+    "name": "Depilación en cera",
+    "description": "Depilación de cejas con cera",
+    "price": 250,
+    "serviceCategory": "5283abc3-8aba-4ea3-8c54-7799638f5024"
+}
+
+### POST create services
+POST http://localhost:3001/services
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+    "name": "Depilación en hilo",
+    "description": "Depilación de cejas con hilo",
+    "price": 450,
+    "serviceCategory": "5283abc3-8aba-4ea3-8c54-7799638f5024"
+}
+
+### POST create services
+POST http://localhost:3001/services
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+    "name": "Tintado + dep. cera",
+    "description": "Tintado de cejas con depilación de cera",
+    "price": 650,
+    "serviceCategory": "5283abc3-8aba-4ea3-8c54-7799638f5024"
+}
+
+### POST create services
+POST http://localhost:3001/services
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+    "name": "Tintado + dep. hilo",
+    "description": "Tintado de cejas con depilación de hilo",
+    "price": 850,
+    "serviceCategory": "5283abc3-8aba-4ea3-8c54-7799638f5024"
+}
+
+### POST create services
+POST http://localhost:3001/services
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+    "name": "Estilo brasileña",
+    "description": "Depilación de cejas estilo brasileña",
+    "price": 2800,
+    "serviceCategory": "5283abc3-8aba-4ea3-8c54-7799638f5024"
+}
+
+### POST create services
+POST http://localhost:3001/services
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+    "name": "Cejas pelo a pelo",
+    "description": "Depilación de cejas pelo a pelo",
+    "price": 7500,
+    "serviceCategory": "5283abc3-8aba-4ea3-8c54-7799638f5024"
+}
+
+### POST create services
+POST http://localhost:3001/services
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+    "name": "Ombre brows",
+    "description": "Depilación de cejas estilo ombre",
+    "price": 12500,
+    "serviceCategory": "5283abc3-8aba-4ea3-8c54-7799638f5024"
+}
+
+### GET services
+GET http://localhost:3001/services
+
+### GET services
+GET http://localhost:3001/services?where=serviceCategory&whereValue=5ccda119-3176-4fac-b1a9-57880b7ce119
+
+
+########## Caterogies ##########
+
+### POST create category
+POST http://localhost:3001/service-category
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+    "name": "Pestañas",
+    "description": "Servicios relacionados con la aplicación, cuidado y mantenimiento de pestañas"
+}
+
+### POST create category
+POST http://localhost:3001/service-category
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+    "name": "Pestañas",
+    "description": "Servicios relacionados con la aplicación, cuidado y mantenimiento de pestañas"
+}
+
+### POST create category
+POST http://localhost:3001/service-category
+Content-Type: application/json
+user-id: f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+    "name": "Labios",
+    "description": "Servicios relacionados con la aplicación, cuidado y mantenimiento de labios"
+}
+
+### POST create category
+POST http://localhost:3001/service-category
+Content-Type: application/json
+user-id:f3ab8c20-e519-48a9-a311-2e8019bbd3a0
+
+{
+    "name": "Cejas",
+    "description": "Servicios relacionados con la aplicación, cuidado y mantenimiento de cejas"
+}
+
+### GET categories
+GET http://localhost:3001/service-category
+
+### GET all services 
+GET http://localhost:3001/services
+
+
+### GEt by name
+GET http://localhost:3001/services/name/Mega+clásicas
+
+
+### GET in category
+GET http://localhost:3001/services/in-category

@@ -1,0 +1,69 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2021",
+    "sourceMap": true,
+    "inlineSources": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@src/*": [
+        "src/*"
+      ],
+      "@core/*": [
+        "src/core/*"
+      ],
+      "@database/*": [
+        "src/database/*"
+      ],
+      "@health/*": [
+        "src/core/health/*"
+      ],
+      "@shared/*": [
+        "src/core/shared/*"
+      ],
+      "@decorators/*": [
+        "src/core/shared/decorators/*"
+      ],
+      "@filters/*": [
+        "src/core/shared/filters/*"
+      ],
+      "@guards/*": [
+        "src/core/shared/guards/*"
+      ],
+      "@pipes/*": [
+        "src/core/shared/pipes/*"
+      ],
+      "@logger/*": [
+        "src/core/logger/*"
+      ],
+      "@config/*": [
+        "src/core/general/config/*"
+      ],
+      "@utils/*": [
+        "src/core/tools/utils/*"
+      ],
+      "@contexts/*": [
+        "src/contexts/*"
+      ],
+      "@subcontexts/*": [
+        "src/contexts/subcontexts/*"
+      ],
+      "@error-handler/*": [
+        "src/core/general/error-handler/*"
+      ],
+    }
+  }
+}
